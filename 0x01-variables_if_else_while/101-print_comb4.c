@@ -16,6 +16,7 @@ int main(void)
                 for  (nu = num + 1; nu <= 9; nu++)
                 {
 			for  (n = nu + 1; n <= 9; n++)
+			{
                         putchar((num % 10) + '0');
                         putchar((nu % 10) + '0');
 			putchar((n % 10) + '0');
@@ -23,8 +24,9 @@ int main(void)
                                 break;
                         putchar(',');
                         putchar(' ');
-                }
-        }
+			}
+		}
+	}
         putchar('\n');
         return (0);
 }
