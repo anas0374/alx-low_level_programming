@@ -20,7 +20,7 @@ int main(void)
                         putchar((num % 10) + '0');
                         putchar((nu % 10) + '0');
 			putchar((n % 10) + '0');
-                        if (num == 8 && nu == 9)
+                        if (num == 7 && nu == 8 && n == 9)
                                 break;
                         putchar(',');
                         putchar(' ');
