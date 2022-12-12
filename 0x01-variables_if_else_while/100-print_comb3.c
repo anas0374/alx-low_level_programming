@@ -10,7 +10,7 @@ int main(void)
 	int num;
 	int nu;
 
-	for (num = 0; num <= 9; num++)
+	for (num = 0; num <= 8; num++)
 	{
 		for  (nu = 1; nu <= 9; nu++)
 		{
