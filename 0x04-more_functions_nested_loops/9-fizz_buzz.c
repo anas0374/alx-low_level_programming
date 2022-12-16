@@ -3,9 +3,8 @@
 
 /**
  * main - entry point
- * Description: FizzBuzz
- * Fizz
- * Return: void
+ * Description: FizzBuzz 
+ * Return: 0
  */
 
 int main(void)
@@ -28,10 +27,12 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", i);
+			printf("%d", i);
 		}
 		if (i < 100)
+		{
 			printf(" ")
+		}
 	}
 	printf("\n");
 	return (0);
