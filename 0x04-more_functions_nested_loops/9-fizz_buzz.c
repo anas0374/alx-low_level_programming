@@ -3,10 +3,11 @@
 
 /**
  * main - entry point
+ *
  * Description: FizzBuzz 
+ *
  * Return: 0
  */
-
 int main(void)
 {
 	int i;
